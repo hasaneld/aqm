@@ -1,0 +1,415 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              Apple Inc   R-squared:                       0.118
+Model:                            OLS   Adj. R-squared:                  0.045
+Method:                 Least Squares   F-statistic:                     1.610
+Date:                Fri, 20 May 2022   Prob (F-statistic):              0.121
+Time:                        14:16:22   Log-Likelihood:                 141.90
+No. Observations:                 118   AIC:                            -263.8
+Df Residuals:                     108   BIC:                            -236.1
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const            3.326e-05      0.028      0.001      0.999      -0.055       0.055
+Apple Inc Lag       0.0258      0.096      0.269      0.788      -0.164       0.216
+USUNR=ECI           0.0035      0.004      0.833      0.407      -0.005       0.012
+USCPI=ECI           0.0319      0.049      0.653      0.515      -0.065       0.129
+USRSL=ECI          -0.0002      0.004     -0.046      0.963      -0.008       0.008
+USIP=ECI           -0.0018      0.007     -0.259      0.796      -0.016       0.012
+USIMP=ECI           0.0221      0.017      1.316      0.191      -0.011       0.055
+USEXP=ECI          -0.0199      0.016     -1.259      0.211      -0.051       0.011
+USGDPF=ECI         -0.0023      0.001     -2.225      0.028      -0.004      -0.000
+PCUAWHLTRAWHLTR    -0.1201      1.050     -0.114      0.909      -2.200       1.960
+==============================================================================
+Omnibus:                        4.614   Durbin-Watson:                   1.894
+Prob(Omnibus):                  0.100   Jarque-Bera (JB):                4.249
+Skew:                          -0.461   Prob(JB):                        0.120
+Kurtosis:                       3.116   Cond. No.                     1.23e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.23e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:            NVIDIA Corp   R-squared:                       0.064
+Model:                            OLS   Adj. R-squared:                 -0.014
+Method:                 Least Squares   F-statistic:                    0.8184
+Date:                Fri, 20 May 2022   Prob (F-statistic):              0.600
+Time:                        14:16:22   Log-Likelihood:                 101.68
+No. Observations:                 118   AIC:                            -183.4
+Df Residuals:                     108   BIC:                            -155.7
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               0.0289      0.039      0.734      0.464      -0.049       0.107
+NVIDIA Corp Lag     0.0196      0.096      0.204      0.839      -0.171       0.210
+USUNR=ECI           0.0018      0.006      0.299      0.765      -0.010       0.014
+USCPI=ECI           0.0248      0.069      0.359      0.720      -0.112       0.161
+USRSL=ECI           0.0038      0.005      0.692      0.490      -0.007       0.015
+USIP=ECI           -0.0093      0.010     -0.946      0.346      -0.029       0.010
+USIMP=ECI           0.0223      0.024      0.943      0.348      -0.025       0.069
+USEXP=ECI          -0.0158      0.023     -0.704      0.483      -0.060       0.029
+USGDPF=ECI         -0.0020      0.001     -1.423      0.158      -0.005       0.001
+PCUAWHLTRAWHLTR    -0.5363      1.474     -0.364      0.717      -3.458       2.386
+==============================================================================
+Omnibus:                        6.689   Durbin-Watson:                   1.988
+Prob(Omnibus):                  0.035   Jarque-Bera (JB):                9.627
+Skew:                          -0.225   Prob(JB):                      0.00812
+Kurtosis:                       4.325   Cond. No.                     1.23e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.23e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:           Alphabet Inc   R-squared:                       0.131
+Model:                            OLS   Adj. R-squared:                  0.058
+Method:                 Least Squares   F-statistic:                     1.801
+Date:                Fri, 20 May 2022   Prob (F-statistic):             0.0761
+Time:                        14:16:22   Log-Likelihood:                 171.75
+No. Observations:                 118   AIC:                            -323.5
+Df Residuals:                     108   BIC:                            -295.8
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const               -0.0317      0.022     -1.454      0.149      -0.075       0.011
+Alphabet Inc Lag    -0.1693      0.098     -1.732      0.086      -0.363       0.024
+USUNR=ECI            0.0085      0.003      2.589      0.011       0.002       0.015
+USCPI=ECI            0.0431      0.038      1.125      0.263      -0.033       0.119
+USRSL=ECI            0.0007      0.003      0.234      0.815      -0.005       0.007
+USIP=ECI            -0.0061      0.005     -1.124      0.264      -0.017       0.005
+USIMP=ECI            0.0115      0.013      0.889      0.376      -0.014       0.037
+USEXP=ECI           -0.0043      0.012     -0.345      0.731      -0.029       0.020
+USGDPF=ECI           0.0007      0.001      0.858      0.393      -0.001       0.002
+PCUAWHLTRAWHLTR     -1.0732      0.814     -1.319      0.190      -2.686       0.540
+==============================================================================
+Omnibus:                        2.555   Durbin-Watson:                   1.986
+Prob(Omnibus):                  0.279   Jarque-Bera (JB):                2.392
+Skew:                          -0.052   Prob(JB):                        0.302
+Kurtosis:                       3.690   Cond. No.                     1.23e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.23e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      Cisco Systems Inc   R-squared:                       0.121
+Model:                            OLS   Adj. R-squared:                  0.048
+Method:                 Least Squares   F-statistic:                     1.653
+Date:                Fri, 20 May 2022   Prob (F-statistic):              0.109
+Time:                        14:16:22   Log-Likelihood:                 154.33
+No. Observations:                 118   AIC:                            -288.7
+Df Residuals:                     108   BIC:                            -260.9
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+const                    -0.0051      0.025     -0.204      0.839      -0.055       0.045
+Cisco Systems Inc Lag    -0.2376      0.095     -2.503      0.014      -0.426      -0.049
+USUNR=ECI                 0.0018      0.004      0.484      0.629      -0.006       0.009
+USCPI=ECI                 0.0147      0.044      0.337      0.737      -0.072       0.101
+USRSL=ECI                 0.0061      0.004      1.752      0.083      -0.001       0.013
+USIP=ECI                 -0.0109      0.006     -1.714      0.089      -0.023       0.002
+USIMP=ECI                 0.0211      0.015      1.395      0.166      -0.009       0.051
+USEXP=ECI                -0.0141      0.014     -0.992      0.323      -0.042       0.014
+USGDPF=ECI                0.0004      0.001      0.426      0.671      -0.001       0.002
+PCUAWHLTRAWHLTR           0.3967      0.943      0.421      0.675      -1.473       2.267
+==============================================================================
+Omnibus:                        3.745   Durbin-Watson:                   1.913
+Prob(Omnibus):                  0.154   Jarque-Bera (JB):                3.139
+Skew:                          -0.348   Prob(JB):                        0.208
+Kurtosis:                       3.393   Cond. No.                     1.23e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.23e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        ASML Holding NV   R-squared:                       0.128
+Model:                            OLS   Adj. R-squared:                  0.072
+Method:                 Least Squares   F-statistic:                     2.304
+Date:                Fri, 20 May 2022   Prob (F-statistic):             0.0313
+Time:                        14:16:22   Log-Likelihood:                 155.11
+No. Observations:                 118   AIC:                            -294.2
+Df Residuals:                     110   BIC:                            -272.0
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   0.1499      0.272      0.552      0.582      -0.389       0.688
+ASML Holding NV Lag    -0.0540      0.091     -0.593      0.555      -0.234       0.127
+NLUNRS=ECI              0.2048      0.240      0.854      0.395      -0.271       0.680
+NLCPIY=ECI              0.0036      0.013      0.283      0.778      -0.021       0.029
+NLRSLY=ECI             -0.0039      0.004     -0.903      0.369      -0.012       0.005
+NLGDP=ECI              -0.0115      0.007     -1.658      0.100      -0.025       0.002
+NLDPROINDMISMEI        -0.0012      0.003     -0.469      0.640      -0.007       0.004
+XTIMVA01NLM667S         0.5825      0.196      2.973      0.004       0.194       0.971
+==============================================================================
+Omnibus:                        0.736   Durbin-Watson:                   2.183
+Prob(Omnibus):                  0.692   Jarque-Bera (JB):                0.771
+Skew:                          -0.184   Prob(JB):                        0.680
+Kurtosis:                       2.853   Cond. No.                     4.83e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.83e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 SAP SE   R-squared:                       0.113
+Model:                            OLS   Adj. R-squared:                  0.047
+Method:                 Least Squares   F-statistic:                     1.729
+Date:                Fri, 20 May 2022   Prob (F-statistic):             0.0997
+Time:                        14:16:22   Log-Likelihood:                 158.80
+No. Observations:                 118   AIC:                            -299.6
+Df Residuals:                     109   BIC:                            -274.7
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0083      0.006      1.304      0.195      -0.004       0.021
+SAP SE Lag    -0.1085      0.100     -1.089      0.279      -0.306       0.089
+DEUNR=ECI      0.5190      0.393      1.320      0.190      -0.260       1.298
+DECPI=ECI     -0.0001      0.004     -0.038      0.970      -0.007       0.007
+DERSL=ECI     -0.0023      0.003     -0.765      0.446      -0.008       0.004
+DEIP=ECI      -0.0037      0.005     -0.721      0.473      -0.014       0.007
+DEIMY=ECI      0.0031      0.004      0.846      0.399      -0.004       0.010
+DEEXPY=ECI     0.0028      0.004      0.628      0.531      -0.006       0.012
+DEGDP=ECI     -0.0068      0.003     -2.252      0.026      -0.013      -0.001
+==============================================================================
+Omnibus:                       22.408   Durbin-Watson:                   2.013
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               79.802
+Skew:                          -0.528   Prob(JB):                     4.69e-18
+Kurtosis:                       6.888   Cond. No.                         308.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                                OLS Regression Results                               
+=====================================================================================
+Dep. Variable:     Logitech International SA   R-squared:                       0.096
+Model:                                   OLS   Adj. R-squared:                  0.039
+Method:                        Least Squares   F-statistic:                     1.670
+Date:                       Fri, 20 May 2022   Prob (F-statistic):              0.124
+Time:                               14:16:22   Log-Likelihood:                 133.16
+No. Observations:                        118   AIC:                            -250.3
+Df Residuals:                            110   BIC:                            -228.1
+Df Model:                                  7                                         
+Covariance Type:                   nonrobust                                         
+=================================================================================================
+                                    coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                             0.0142      0.009      1.662      0.099      -0.003       0.031
+Logitech International SA Lag     0.2287      0.091      2.507      0.014       0.048       0.410
+CHJOB=ECI                         0.3261      0.297      1.098      0.274      -0.262       0.914
+CHCPI=ECI                         0.0022      0.004      0.599      0.551      -0.005       0.010
+CHRS=ECI                          0.0001      0.002      0.077      0.939      -0.003       0.003
+CHGDP=ECI                        -0.0017      0.005     -0.330      0.742      -0.012       0.009
+CHEPROINDQISMEI                  -0.5685      0.559     -1.017      0.311      -1.677       0.539
+XTEXVA01CHM667S                   0.1121      0.182      0.616      0.539      -0.249       0.473
+==============================================================================
+Omnibus:                        3.691   Durbin-Watson:                   2.002
+Prob(Omnibus):                  0.158   Jarque-Bera (JB):                3.106
+Skew:                          -0.323   Prob(JB):                        0.212
+Kurtosis:                       3.464   Cond. No.                         404.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                             OLS Regression Results                             
+================================================================================
+Dep. Variable:     Tencent Holdings Ltd   R-squared:                       0.027
+Model:                              OLS   Adj. R-squared:                 -0.017
+Method:                   Least Squares   F-statistic:                    0.6128
+Date:                  Fri, 20 May 2022   Prob (F-statistic):              0.690
+Time:                          14:16:22   Log-Likelihood:                 131.44
+No. Observations:                   118   AIC:                            -250.9
+Df Residuals:                       112   BIC:                            -234.2
+Df Model:                             5                                         
+Covariance Type:              nonrobust                                         
+============================================================================================
+                               coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------
+const                        0.0145      0.009      1.590      0.115      -0.004       0.033
+Tencent Holdings Ltd Lag    -0.0193      0.098     -0.197      0.845      -0.214       0.176
+CNCPI=ECI                    0.0123      0.015      0.827      0.410      -0.017       0.042
+CNRSL=ECI                   -0.0023      0.013     -0.177      0.860      -0.028       0.023
+CNIMP=ECI                    0.0044      0.004      0.998      0.320      -0.004       0.013
+CNGDPA=ECI                   0.0027      0.003      0.888      0.377      -0.003       0.009
+==============================================================================
+Omnibus:                        2.724   Durbin-Watson:                   1.880
+Prob(Omnibus):                  0.256   Jarque-Bera (JB):                2.730
+Skew:                          -0.357   Prob(JB):                        0.255
+Kurtosis:                       2.790   Cond. No.                         40.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                                OLS Regression Results                                
+======================================================================================
+Dep. Variable:     Samsung Electronics Co Ltd   R-squared:                       0.033
+Model:                                    OLS   Adj. R-squared:                 -0.019
+Method:                         Least Squares   F-statistic:                    0.6300
+Date:                        Fri, 20 May 2022   Prob (F-statistic):              0.706
+Time:                                14:16:22   Log-Likelihood:                 154.34
+No. Observations:                         118   AIC:                            -294.7
+Df Residuals:                             111   BIC:                            -275.3
+Df Model:                                   6                                         
+Covariance Type:                    nonrobust                                         
+==================================================================================================
+                                     coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------
+const                              0.0101      0.006      1.582      0.116      -0.003       0.023
+Samsung Electronics Co Ltd Lag    -0.0632      0.098     -0.644      0.521      -0.258       0.131
+JPUNR=ECI                          0.0519      0.165      0.314      0.754      -0.276       0.380
+JPCPI=ECI                         -0.0055      0.006     -0.943      0.348      -0.017       0.006
+JPRSLS=ECI                        -0.0025      0.002     -1.379      0.171      -0.006       0.001
+JPIMPY=ECI                         0.0048      0.005      0.964      0.337      -0.005       0.015
+JPEXPY=ECI                         0.0008      0.005      0.176      0.860      -0.009       0.010
+==============================================================================
+Omnibus:                        4.001   Durbin-Watson:                   1.936
+Prob(Omnibus):                  0.135   Jarque-Bera (JB):                3.416
+Skew:                           0.387   Prob(JB):                        0.181
+Kurtosis:                       3.311   Cond. No.                         93.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        Sony Group Corp   R-squared:                       0.017
+Model:                            OLS   Adj. R-squared:                 -0.036
+Method:                 Least Squares   F-statistic:                    0.3173
+Date:                Fri, 20 May 2022   Prob (F-statistic):              0.927
+Time:                        14:16:22   Log-Likelihood:                 112.92
+No. Observations:                 118   AIC:                            -211.8
+Df Residuals:                     111   BIC:                            -192.5
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   0.0185      0.009      2.044      0.043       0.001       0.036
+Sony Group Corp Lag     0.0251      0.092      0.273      0.786      -0.157       0.208
+KRCPI=ECI              -0.0003      0.004     -0.072      0.943      -0.009       0.008
+KRIO=ECI                0.0017      0.005      0.348      0.728      -0.008       0.011
+KREXP=ECI              -0.0054      0.005     -1.017      0.311      -0.016       0.005
+KRGDQA=ECI             -0.0109      0.019     -0.582      0.561      -0.048       0.026
+KORPROINDMISMEI        -0.2423      0.472     -0.514      0.609      -1.177       0.693
+==============================================================================
+Omnibus:                        8.055   Durbin-Watson:                   2.083
+Prob(Omnibus):                  0.018   Jarque-Bera (JB):               10.303
+Skew:                           0.371   Prob(JB):                      0.00579
+Kurtosis:                       4.243   Cond. No.                         119.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:      Cisco Systems Inc   R-squared:                       0.082
+Model:                            OLS   Adj. R-squared:                 -0.004
+Method:                 Least Squares   F-statistic:                    0.9507
+Date:                Fri, 20 May 2022   Prob (F-statistic):              0.491
+Time:                        14:16:22   Log-Likelihood:                 151.74
+No. Observations:                 118   AIC:                            -281.5
+Df Residuals:                     107   BIC:                            -251.0
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+=========================================================================================
+                            coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------
+const                     0.0084      0.007      1.205      0.231      -0.005       0.022
+Cisco Systems Inc Lag    -0.2027      0.099     -2.056      0.042      -0.398      -0.007
+EUIP=ECI               5.796e-05      0.003      0.020      0.984      -0.006       0.006
+EUGDP=ECI                 0.0006      0.002      0.268      0.789      -0.004       0.005
+CPHPTT01EZM659N          -0.0034      0.009     -0.391      0.697      -0.021       0.014
+EA19PRINTO01GPSAM         0.0031      0.004      0.854      0.395      -0.004       0.010
+XTIMVA01EZM667S           0.3947      0.374      1.055      0.294      -0.347       1.136
+XTEXVA01EZM667S          -0.0812      0.367     -0.222      0.825      -0.808       0.646
+CHJOB=ECI                 0.1617      0.263      0.614      0.541      -0.360       0.684
+CHCPI=ECI                 0.0001      0.003      0.032      0.975      -0.007       0.007
+CHRS=ECI                  0.0005      0.001      0.338      0.736      -0.002       0.003
+==============================================================================
+Omnibus:                        4.307   Durbin-Watson:                   1.989
+Prob(Omnibus):                  0.116   Jarque-Bera (JB):                3.818
+Skew:                          -0.331   Prob(JB):                        0.148
+Kurtosis:                       3.581   Cond. No.                         397.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        ASML Holding NV   R-squared:                       0.111
+Model:                            OLS   Adj. R-squared:                  0.028
+Method:                 Least Squares   F-statistic:                     1.331
+Date:                Fri, 20 May 2022   Prob (F-statistic):              0.223
+Time:                        14:16:22   Log-Likelihood:                 153.95
+No. Observations:                 118   AIC:                            -285.9
+Df Residuals:                     107   BIC:                            -255.4
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   0.0211      0.007      2.997      0.003       0.007       0.035
+ASML Holding NV Lag    -0.1025      0.095     -1.080      0.283      -0.291       0.086
+EUIP=ECI                0.0006      0.003      0.203      0.839      -0.005       0.006
+EUGDP=ECI               0.0009      0.002      0.371      0.712      -0.004       0.005
+CPHPTT01EZM659N         0.0010      0.009      0.113      0.911      -0.016       0.018
+EA19PRINTO01GPSAM       0.0012      0.004      0.338      0.736      -0.006       0.008
+XTIMVA01EZM667S         0.3750      0.366      1.024      0.308      -0.351       1.101
+XTEXVA01EZM667S         0.2112      0.360      0.587      0.558      -0.502       0.925
+CHJOB=ECI               0.4822      0.258      1.870      0.064      -0.029       0.994
+CHCPI=ECI               0.0006      0.003      0.183      0.855      -0.006       0.007
+CHRS=ECI                0.0009      0.001      0.640      0.524      -0.002       0.004
+==============================================================================
+Omnibus:                        2.037   Durbin-Watson:                   2.025
+Prob(Omnibus):                  0.361   Jarque-Bera (JB):                1.691
+Skew:                          -0.147   Prob(JB):                        0.429
+Kurtosis:                       2.492   Cond. No.                         396.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 SAP SE   R-squared:                       0.125
+Model:                            OLS   Adj. R-squared:                  0.043
+Method:                 Least Squares   F-statistic:                     1.522
+Date:                Fri, 20 May 2022   Prob (F-statistic):              0.141
+Time:                        14:16:22   Log-Likelihood:                 159.60
+No. Observations:                 118   AIC:                            -297.2
+Df Residuals:                     107   BIC:                            -266.7
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+=====================================================================================
+                        coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------
+const                 0.0085      0.007      1.302      0.196      -0.004       0.021
+SAP SE Lag           -0.1726      0.097     -1.789      0.076      -0.364       0.019
+EUIP=ECI          -9.768e-05      0.003     -0.035      0.972      -0.006       0.005
+EUGDP=ECI            -0.0078      0.002     -3.339      0.001      -0.012      -0.003
+CPHPTT01EZM659N      -0.0052      0.008     -0.636      0.526      -0.021       0.011
+EA19PRINTO01GPSAM    -0.0010      0.003     -0.297      0.767      -0.008       0.006
+XTIMVA01EZM667S       0.0472      0.350      0.135      0.893      -0.646       0.740
+XTEXVA01EZM667S       0.2598      0.344      0.756      0.451      -0.422       0.941
+CHJOB=ECI            -0.0933      0.245     -0.380      0.705      -0.580       0.393
+CHCPI=ECI             0.0015      0.003      0.473      0.637      -0.005       0.008
+CHRS=ECI           6.428e-05      0.001      0.047      0.962      -0.003       0.003
+==============================================================================
+Omnibus:                       21.519   Durbin-Watson:                   2.013
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               71.972
+Skew:                          -0.522   Prob(JB):                     2.35e-16
+Kurtosis:                       6.681   Cond. No.                         397.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
